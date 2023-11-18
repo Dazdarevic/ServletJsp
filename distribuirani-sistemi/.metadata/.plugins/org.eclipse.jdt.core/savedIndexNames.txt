@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Belkisa\Desktop\Servlet_JSP\distribuirani-sistemi\.metadata\.plugins\org.eclipse.jdt.core
+760091825.index
+1367969243.index
+1865797976.index

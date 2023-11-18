@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <description></description>
+    <display-name>Converter</display-name>
+    <servlet-name>Converter</servlet-name>
+    <servlet-class>com.primer.Converter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Converter</servlet-name>
+    <url-pattern>/Converter</url-pattern>
+  </servlet-mapping>
+  <display-name>primer</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CurrencyConverter</display-name>
+    <servlet-name>CurrencyConverter</servlet-name>
+    <servlet-class>CurrencyConverter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CurrencyConverter</servlet-name>
+    <url-pattern>/CurrencyConverter</url-pattern>
+  </servlet-mapping>
+</web-app>
